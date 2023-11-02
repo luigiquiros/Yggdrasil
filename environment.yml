@@ -1,0 +1,22 @@
+
+name: yggdrasil
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - anaconda
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pandas
+  - pip:
+    - ipykernel
+    - jupyter_client
+    - matplotlib
+    - plotly
+    - tqmd
+    - time
+    - requests
+    - quote
+    - opentreelib plotly
