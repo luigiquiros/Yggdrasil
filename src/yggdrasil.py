@@ -1,8 +1,8 @@
-import opentreelib
+import opentree
 import plotly.graph_objs as go
 
 # Access Open Tree of Life API
-tree = opentreelib.get_tree_of_life()
+tree = opentree.get_tree_of_life()
 # Replace 'Celastraceae' with the desired taxonomic name or ID
 taxon = tree.taxon("Celastraceae")
 subtree = taxon.subtree()

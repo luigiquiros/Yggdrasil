@@ -19,4 +19,4 @@ dependencies:
     - time
     - requests
     - quote
-    - opentreelib plotly
+    - opentree
