@@ -10,7 +10,7 @@ dependencies:
   - pip
   - biopython==1.71
   - dash==1.7.0
-  - gunicorn==19.9.0
+  #- gunicorn==19.9.0
   - numpy==1.17.4
   - pandas==0.24.2
   - pip:
@@ -22,5 +22,5 @@ dependencies:
     - python-time
     - requests
     - quote
-    - opentree
-    - nbformat
+   # - opentree
+   # - nbformat
